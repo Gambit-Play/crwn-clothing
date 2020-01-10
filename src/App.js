@@ -20,7 +20,7 @@ function App() {
                     path='/'
                     component={HomePage} />
                 <Route
-                    path='/hats'
+                    path='/shop/hats'
                     component={HatsPage} />
             </Switch>
         </div>
