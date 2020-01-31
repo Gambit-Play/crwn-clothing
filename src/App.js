@@ -34,15 +34,15 @@ class App extends React.Component {
                         ...snapshot.data()
                     });
                 });
-
-            } else {
-                setCurrentUser(userAuth);
             }
+
+            setCurrentUser(userAuth);
         });
     }
 
     componentWillUnmount() {
         this.unsubscribeFromAuth();
+        console.log(this.props.currentUser);
     }
 
     render() {
