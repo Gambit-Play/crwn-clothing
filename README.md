@@ -2,12 +2,15 @@
 
 An e-commerce website that sells clothing, hats, and shoes. It uses Stripe for the payment processes.
 
-## Build with:
+[App Demo](https://crwn-react-2020.herokuapp.com/) (Can take some time to restart the server)
+
+## Technologies used and learned:
 
 -   React
 -   React Router
 -   React Hooks
 -   React Context
+-   React Lazy (Performance)
 -   Redux
 -   Redux Saga
 -   Sass
@@ -19,7 +22,6 @@ An e-commerce website that sells clothing, hats, and shoes. It uses Stripe for t
 -   Axios
 -   Stripe Payment
 -   PWA
--   React Lazy (Performance)
 -   Jest (Testing) 
 
 ## Why I started this project:
